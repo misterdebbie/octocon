@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS monies;
+
+CREATE TABLE IF NOT EXISTS monies (
+  id SERIAL PRIMARY KEY,
+  symbol VARCHAR(255),
+  price VARCHAR(255)
+);
